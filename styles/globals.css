@@ -7,6 +7,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+@layer components {
+  .textBlock-wrapper {
+    @apply flex flex-col space-y-5 justify-center p-3;
+  }
+  .textBlock-title {
+    @apply text-4xl font-medium md:text-6xl;
+  }
+  .textBlock-subtitle {
+    @apply text-base lg:text-lg;
+  }
+}
+
 /* create component class */
 
 /* @layer components{
